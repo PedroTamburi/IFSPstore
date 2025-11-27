@@ -6,6 +6,6 @@ public record CustomerModel(
     string Document,
     string Address,
     string Neighborhood,
-    string City,
+    string CityName,
     int CityId
 );

@@ -7,6 +7,6 @@ public record ProductModel(
     int Quantity,
     DateTime PurchaseDate,
     string SaleUnity,
-    string Group,
+    string GroupName,
     int GroupId
 );

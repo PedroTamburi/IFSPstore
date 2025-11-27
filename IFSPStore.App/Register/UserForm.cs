@@ -89,7 +89,7 @@ namespace IFSPStore.App.Register
             {
                 _users = _usersService.Get<UserModel>().ToList();
                 dataGridViewList.DataSource = _users;
-                dataGridViewList.Columns["Name"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                //dataGridViewList.Columns["Name"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             }
             catch (Exception ex)
             {

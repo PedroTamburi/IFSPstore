@@ -61,23 +61,11 @@
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(499, 13);
+            btnSave.Location = new Point(695, 13);
             // 
             // btnCancel
             // 
-            btnCancel.Location = new Point(414, 13);
-            // 
-            // btnNew
-            // 
-            btnNew.Location = new Point(709, 9);
-            // 
-            // btnDelete
-            // 
-            btnDelete.Location = new Point(556, 9);
-            // 
-            // btnEdit
-            // 
-            btnEdit.Location = new Point(637, 9);
+            btnCancel.Location = new Point(610, 13);
             // 
             // tabControlRegister
             // 

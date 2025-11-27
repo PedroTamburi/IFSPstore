@@ -8,7 +8,7 @@ public class Sale : BaseEntity<int>
     public decimal TotalValue { get; set; }
     public User Salesman { get; set; }
     public Customer Customer { get; set; }
-    public List<SaleItem> Items { get; set; }
+    public List<SaleItem> Items { get; set; } = [];
 
     public Sale()
     {

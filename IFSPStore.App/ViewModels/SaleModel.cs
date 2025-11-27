@@ -5,9 +5,9 @@ public record SaleModel(
     int Id,
     DateTime Date,
     decimal TotalValue,
-    string Salesman,
+    string SalesmanName,
     int SalesmanId,
-    string Customer,
+    string CustomerName,
     int CustomerId,
     List<SaleItem> Items
 );

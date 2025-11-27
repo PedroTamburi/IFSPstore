@@ -60,15 +60,15 @@ internal static class ConfigureDI
                     $"{src.Name}/{src.State}"
                 ));
             config.CreateMap<Customer, CustomerModel>()
-                .ForMember(cm => cm.City, c => c.MapFrom(x => $"{x.City.Name}/{x.City.State}"))
+                .ForMember(cm => cm.CityName, c => c.MapFrom(x => $"{x.City.Name}/{x.City.State}"))
                 .ForMember(cm => cm.CityId, c => c.MapFrom(x => x.City.Id));
             config.CreateMap<Product, ProductModel>()
-                .ForMember(pm => pm.Group, p => p.MapFrom(x => $"{x.Group.Name}"))
+                .ForMember(pm => pm.GroupName, p => p.MapFrom(x => $"{x.Group.Name}"))
                 .ForMember(pm => pm.GroupId, p => p.MapFrom(x => x.Group.Id));
             config.CreateMap<Sale, SaleModel>()
-                .ForMember(sm => sm.Salesman, s => s.MapFrom(x => $"{x.Salesman.Name}"))
+                .ForMember(sm => sm.SalesmanName, s => s.MapFrom(x => $"{x.Salesman.Name}"))
                 .ForMember(sm => sm.SalesmanId, s => s.MapFrom(x => x.Salesman.Id))
-                .ForMember(sm => sm.Customer, s => s.MapFrom(x => $"{x.Customer.Name}"))
+                .ForMember(sm => sm.CustomerName, s => s.MapFrom(x => $"{x.Customer.Name}"))
                 .ForMember(sm => sm.CustomerId, s => s.MapFrom(x => x.Customer.Id));
             config.CreateMap<SaleItem, SaleItemModel>()
                 .ForMember(d => d.ProductId, d => d.MapFrom(x => x.Product.Id))
@@ -82,6 +82,7 @@ internal static class ConfigureDI
         services.AddTransient<CityForm>();
         services.AddTransient<ProductForm>();
         services.AddTransient<CustomerForm>();
+        services.AddTransient<SaleForm>();
         #endregion
 
         serviceProvider = services.BuildServiceProvider();

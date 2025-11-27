@@ -99,6 +99,7 @@
             saleToolStripMenuItem.Name = "saleToolStripMenuItem";
             saleToolStripMenuItem.Size = new Size(224, 26);
             saleToolStripMenuItem.Text = "Sale";
+            saleToolStripMenuItem.Click += saleToolStripMenuItem_Click;
             // 
             // relatóriosToolStripMenuItem
             // 
