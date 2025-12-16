@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("IFSPStore.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("IFSPstore.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ef767eb7c23d0a1d6fe6c3cd23cb16efcdf797f")]
-[assembly: System.Reflection.AssemblyProductAttribute("IFSPStore.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("IFSPStore.Domain")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05c6209e24f581c1828150f463c51367c9e15e7e")]
+[assembly: System.Reflection.AssemblyProductAttribute("IFSPstore.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("IFSPstore.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
