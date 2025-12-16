@@ -24,7 +24,7 @@ internal static class ConfigureDI
         services.AddDbContext<IFSPStoreDbContext>(options =>
         {
             options.LogTo(Console.WriteLine);
-            options.UseNpgsql(dbConnectionString);
+            options.UseMySQL(dbConnectionString);
         });
 
         #region Repositories
@@ -78,11 +78,9 @@ internal static class ConfigureDI
 
         #region Forms
         services.AddTransient<CategoryForm>();
-        services.AddTransient<UserForm>();
         services.AddTransient<CityForm>();
-        services.AddTransient<ProductForm>();
         services.AddTransient<CustomerForm>();
-        services.AddTransient<SaleForm>();
+        services.AddTransient<UserForm>();
         #endregion
 
         serviceProvider = services.BuildServiceProvider();

@@ -46,9 +46,10 @@
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { cadastrosToolStripMenuItem, relatóriosToolStripMenuItem, helpToolStripMenuItem, loseToolStripMenuItem });
-            menuStrip1.Location = new Point(3, 64);
+            menuStrip1.Location = new Point(3, 48);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(794, 28);
+            menuStrip1.Padding = new Padding(5, 2, 0, 2);
+            menuStrip1.Size = new Size(1163, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -56,78 +57,78 @@
             // 
             cadastrosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { userToolStripMenuItem, categoryToolStripMenuItem, productToolStripMenuItem, cityToolStripMenuItem, customerToolStripMenuItem, saleToolStripMenuItem });
             cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
-            cadastrosToolStripMenuItem.Size = new Size(77, 24);
+            cadastrosToolStripMenuItem.Size = new Size(61, 20);
             cadastrosToolStripMenuItem.Text = "Register";
             // 
             // userToolStripMenuItem
             // 
             userToolStripMenuItem.Name = "userToolStripMenuItem";
-            userToolStripMenuItem.Size = new Size(224, 26);
+            userToolStripMenuItem.Size = new Size(126, 22);
             userToolStripMenuItem.Text = "User";
             userToolStripMenuItem.Click += userToolStripMenuItem_Click;
             // 
             // categoryToolStripMenuItem
             // 
             categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            categoryToolStripMenuItem.Size = new Size(224, 26);
+            categoryToolStripMenuItem.Size = new Size(126, 22);
             categoryToolStripMenuItem.Text = "Category";
             categoryToolStripMenuItem.Click += categoryToolStripMenuItem_Click;
             // 
             // productToolStripMenuItem
             // 
             productToolStripMenuItem.Name = "productToolStripMenuItem";
-            productToolStripMenuItem.Size = new Size(224, 26);
+            productToolStripMenuItem.Size = new Size(126, 22);
             productToolStripMenuItem.Text = "Product";
-            productToolStripMenuItem.Click += productToolStripMenuItem_Click;
             // 
             // cityToolStripMenuItem
             // 
             cityToolStripMenuItem.Name = "cityToolStripMenuItem";
-            cityToolStripMenuItem.Size = new Size(224, 26);
+            cityToolStripMenuItem.Size = new Size(126, 22);
             cityToolStripMenuItem.Text = "City";
             cityToolStripMenuItem.Click += cityToolStripMenuItem_Click;
             // 
             // customerToolStripMenuItem
             // 
             customerToolStripMenuItem.Name = "customerToolStripMenuItem";
-            customerToolStripMenuItem.Size = new Size(224, 26);
+            customerToolStripMenuItem.Size = new Size(126, 22);
             customerToolStripMenuItem.Text = "Customer";
             customerToolStripMenuItem.Click += customerToolStripMenuItem_Click;
             // 
             // saleToolStripMenuItem
             // 
             saleToolStripMenuItem.Name = "saleToolStripMenuItem";
-            saleToolStripMenuItem.Size = new Size(224, 26);
+            saleToolStripMenuItem.Size = new Size(126, 22);
             saleToolStripMenuItem.Text = "Sale";
-            saleToolStripMenuItem.Click += saleToolStripMenuItem_Click;
             // 
             // relatóriosToolStripMenuItem
             // 
             relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            relatóriosToolStripMenuItem.Size = new Size(68, 24);
+            relatóriosToolStripMenuItem.Size = new Size(54, 20);
             relatóriosToolStripMenuItem.Text = "Report";
             // 
             // helpToolStripMenuItem
             // 
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            helpToolStripMenuItem.Size = new Size(55, 24);
+            helpToolStripMenuItem.Size = new Size(44, 20);
             helpToolStripMenuItem.Text = "Help";
             // 
             // loseToolStripMenuItem
             // 
             loseToolStripMenuItem.Name = "loseToolStripMenuItem";
-            loseToolStripMenuItem.Size = new Size(59, 24);
+            loseToolStripMenuItem.Size = new Size(48, 20);
             loseToolStripMenuItem.Text = "Close";
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1169, 642);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "MainForm";
+            Padding = new Padding(3, 48, 3, 2);
             Text = "IFSP Store";
             WindowState = FormWindowState.Maximized;
             FormClosing += MainForm_FormClosing;

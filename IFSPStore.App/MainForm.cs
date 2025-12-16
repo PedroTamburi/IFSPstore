@@ -35,19 +35,10 @@ namespace IFSPStore.App
             ShowForm<CityForm>();
         }
 
-        private void productToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ShowForm<ProductForm>();
-        }
 
         private void customerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowForm<CustomerForm>();
-        }
-
-        private void saleToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ShowForm<SaleForm>();
         }
 
         private void ShowForm<TFormulario>() where TFormulario : Form
