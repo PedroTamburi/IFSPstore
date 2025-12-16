@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pOY5glpj8qQ=",
+  "dgSpecHash": "MnoGQgbWUnA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Domain\\IFSPStore.Domain.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\source\\repos\\IFSPStore\\IFSPStore.Domain\\IFSPStore.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\migue\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512"
+    "C:\\Users\\pedro\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512"
   ],
   "logs": []
 }

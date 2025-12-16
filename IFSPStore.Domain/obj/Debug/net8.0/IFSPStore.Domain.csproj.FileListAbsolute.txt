@@ -23,3 +23,16 @@ C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\
 C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.pdb
 C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\ref\IFSPStore.Domain.dll
 C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\bin\Debug\net8.0\IFSPStore.Domain.deps.json
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\bin\Debug\net8.0\IFSPStore.Domain.dll
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\bin\Debug\net8.0\IFSPStore.Domain.pdb
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.AssemblyInfo.cs
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.sourcelink.json
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.dll
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\refint\IFSPStore.Domain.dll
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.pdb
+C:\Users\pedro\source\repos\IFSPStore\IFSPStore.Domain\obj\Debug\net8.0\ref\IFSPStore.Domain.dll
